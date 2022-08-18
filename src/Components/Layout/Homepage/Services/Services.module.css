@@ -1,0 +1,15 @@
+.skills {
+  width: 100%;
+  background: #dbdbff;
+  padding: 3.5rem;
+  text-align: left;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.summary {
+  font-size: 0.85rem;
+  font-weight: 200;
+}

@@ -1,0 +1,19 @@
+.skills {
+  width: 100%;
+  background: white;
+  padding: 3.5rem;
+  text-align: left;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.summary {
+  font-size: 0.85rem;
+  font-weight: 200;
+}

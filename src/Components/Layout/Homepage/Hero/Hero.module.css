@@ -1,0 +1,56 @@
+.hero {
+  width: 100%;
+  height: 75vh;
+  background: white;
+  padding: 4rem 4rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hero h3 {
+  font-size: 2.5rem;
+  color: #b784fa;
+}
+
+.hero h4 {
+  color: #0b012e;
+}
+
+.hero p {
+  font-size: 1.35rem;
+  width: 80%;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 379px) {
+  .hero {
+    padding: 4rem;
+  }
+
+  .hero h3 {
+    font-size: 2rem;
+    color: #b784fa;
+  }
+
+  .hero p {
+    font-size: 1.05rem;
+    width: 100%;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .hero {
+    padding: 4rem 6rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero {
+    height: 65vh;
+    padding-left: 10rem;
+  }
+}

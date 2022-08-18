@@ -1,0 +1,29 @@
+.service_card {
+  width: 80%;
+  padding: 25px;
+  text-align: center;
+}
+
+.icon {
+  font-size: 50px;
+  color: #8d3bf7;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 580px) {
+  .service_card {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .service_card {
+    width: 30%;
+  }
+}

@@ -1,0 +1,17 @@
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #8d3bf7;
+  padding: 9px 25px;
+  background-color: white;
+  border: 1px solid #8d3bf7;
+  margin-top: 15px;
+  transition: 850ms ease;
+}
+
+button:hover {
+  background-color: #b784fa;
+  color: white;
+  transform: scale(1.05);
+}

@@ -1,0 +1,39 @@
+.contact_info {
+  width: 100%;
+  padding: 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  width: 100%;
+}
+
+.contact_info p {
+  margin: 10px 0px;
+}
+
+.media {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.media p {
+  margin-left: 5px;
+}
+
+.icon {
+  font-size: 25px;
+  color: #8d3bf7;
+}
+
+@media screen and (min-width: 900px) {
+  .contact_info {
+    width: 60%;
+    height: 100%;
+    padding: 4rem;
+  }
+}
