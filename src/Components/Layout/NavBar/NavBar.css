@@ -21,6 +21,7 @@
   margin-left: 30px;
   margin-right: auto;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .logo span {
@@ -107,19 +108,11 @@
   font-size: 16px;
   line-height: 24px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .headerEl li .link.active {
   text-decoration: underline;
-}
-
-.log-out {
-  color: white;
-  padding: 10px 25px;
-  background-color: crimson;
-  border: none;
-  border-radius: 15px;
-  font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (min-width: 947px) {
