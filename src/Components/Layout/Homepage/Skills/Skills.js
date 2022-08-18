@@ -1,5 +1,4 @@
 import React from "react";
-import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import classes from "./Skills.module.css";
 import SkillsList from "./SkillsList/SkillsList";
 
